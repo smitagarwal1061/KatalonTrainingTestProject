@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>EnvTest</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'This is text from global variable - TEST'</initValue>
+      <name>SampleText</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
