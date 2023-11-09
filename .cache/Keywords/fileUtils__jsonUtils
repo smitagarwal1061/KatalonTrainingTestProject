@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "65E39FA5BC099CF02007BA10430DCFD9",
+  "keywordFileContentHash": "A49C6E42AD4A0C2027BC2941B8823262",
   "keywordClasses": [
     {
       "name": "fileUtils.jsonUtils",
@@ -33,10 +33,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": "/**\r\n\t * This function is used to fetch json path key value\r\n\t *\r\n\t * @param jsonString\r\n\t * @param jsonPath\r\n\t * @return keyValue\r\n\t *\r\n\t */"
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

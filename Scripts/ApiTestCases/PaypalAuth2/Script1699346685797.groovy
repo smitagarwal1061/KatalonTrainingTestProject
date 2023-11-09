@@ -20,12 +20,8 @@ import org.apache.http.util.Asserts
 import org.openqa.selenium.Keys as Keys
 
 
-//def slurper = new groovy.json.JsonSlurper()
-
 responseGetAccessToken = WS.sendRequestAndVerify(findTestObject('Postman/PayPal-GetAccessToken'))
 
-//def result = slurper.parseText(responseGetAccessToken.getResponseBodyContent())
-//def accessToken = result.access_token
 def accessToken = CustomKeywords.'fileUtils.jsonUtils.getKeyValueUsingJsonPath'(responseGetAccessToken.getResponseBodyContent(), 'access_token')
 println " >> access token :: " +accessToken
 
@@ -33,13 +29,7 @@ GlobalVariable.ACCESSTOKEN = accessToken
  
 responseCreateOrders = WS.sendRequestAndVerify(findTestObject('Postman/PayPal-CreateOrders'))
 
-def slurper = new groovy.json.JsonSlurper()
-def resultCreateOrders = slurper.parseText(responseCreateOrders.getResponseBodyContent())
-def hrefOrder = resultCreateOrders.links[0].href
-//def hrefOrder = CustomKeywords.'fileUtils.jsonUtils.getKeyValueUsingJsonPath'(responseCreateOrders.getResponseBodyContent(), 'links[0].href')
-//def hrefOrder = println WS.getElementPropertyValue(responseCreateOrders, 'links[0].href')
-
-//def orderIdCreateOrders = resultCreateOrders.id
+def hrefOrder = CustomKeywords.'fileUtils.jsonUtils.getKeyValueUsingJsonPath'(responseCreateOrders.getResponseBodyContent(), 'links[0].href')
 def orderIdCreateOrders = CustomKeywords.'fileUtils.jsonUtils.getKeyValueUsingJsonPath'(responseCreateOrders.getResponseBodyContent(), 'id')
 println " >> href Order :: " +hrefOrder
 println " >> Order ID :: " +orderIdCreateOrders
@@ -49,8 +39,6 @@ GlobalVariable.HREF = hrefOrder
 def responseGetOrders = WS.sendRequest(findTestObject('Postman/PayPal-GetOrders'))
 
 def orderIdGetOrders = CustomKeywords.'fileUtils.jsonUtils.getKeyValueUsingJsonPath'(responseGetOrders.getResponseBodyContent(), 'id')
-//def resultGetOrders = slurper.parseText(responseGetOrders.getResponseBodyContent())
-//def orderIdGetOrders = resultGetOrders.id
 println " >> Order ID :: " +orderIdGetOrders
 
-assert  orderIdCreateOrders == orderIdGetOrders
+WebUI.verifyMatch(orderIdGetOrders, orderIdCreateOrders, false)
