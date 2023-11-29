@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_show-hide</name>
+   <name>textBoxHideShowExample</name>
    <tag></tag>
-   <elementGuidId>a68214f2-882d-41ff-ba03-a6f4f5603da6</elementGuidId>
+   <elementGuidId>e51b4b24-f93d-4881-b564-27c22e09c198</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@id='displayed-text']</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>#displayed-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='displayed-text']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>d11c6737-a170-4c07-9b77-1f3c25b39d00</webElementGuid>
+      <webElementGuid>4f645c96-d7cf-4f45-91fa-42c06d419b39</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>displayed-text</value>
-      <webElementGuid>0df9779d-a24c-4311-be04-38ea4be8f80d</webElementGuid>
+      <webElementGuid>fe48003e-9e2b-422b-9963-319ff32187c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>show-hide</value>
-      <webElementGuid>0f727790-81aa-42de-aa6a-770ef94c6912</webElementGuid>
+      <webElementGuid>d9a20d30-26bf-4b1e-a89f-1e12487e89ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>inputs displayed-class</value>
-      <webElementGuid>2ead23fd-0f59-4ecf-978a-db53ee553042</webElementGuid>
+      <webElementGuid>6c5b3372-df7d-4a40-bc11-feb543c2a997</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Hide/Show Example</value>
-      <webElementGuid>d61928aa-df1c-4f34-b875-4cee0adc84da</webElementGuid>
+      <webElementGuid>f49b043c-8bee-40d6-974d-8e5c4fa40c07</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>598e7539-d160-464f-80b1-f809412eacdb</webElementGuid>
+      <webElementGuid>97c4de39-1246-419a-bf51-e2ae88187bf2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;displayed-text&quot;)</value>
-      <webElementGuid>f262d657-a024-43b6-9a4b-0552975d19de</webElementGuid>
+      <webElementGuid>d7fab037-d2fc-4e0e-90eb-c7328d3e5689</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='displayed-text']</value>
-      <webElementGuid>5b90ef87-8e26-4329-9dff-11bf37ef7615</webElementGuid>
+      <webElementGuid>e33c0d10-0c5a-4185-bac3-f575fdf4bf50</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/fieldset/input[3]</value>
-      <webElementGuid>febaf05d-223c-4536-84b7-6b5932d6dd9f</webElementGuid>
+      <webElementGuid>48408fdf-5dd6-4600-b6de-1a9d39b4d9ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'displayed-text' and @name = 'show-hide' and @placeholder = 'Hide/Show Example' and @type = 'text']</value>
-      <webElementGuid>092512d4-86d6-43ae-83d8-0f944b13deea</webElementGuid>
+      <webElementGuid>ff62026d-0549-429e-baf5-580f499f540a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

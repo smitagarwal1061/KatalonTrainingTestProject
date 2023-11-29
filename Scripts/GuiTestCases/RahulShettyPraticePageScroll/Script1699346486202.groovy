@@ -23,24 +23,23 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://rahulshettyacademy.com/AutomationPractice/')
 
-println("Performing scroll on Webpage....")
+println('Performing scroll on Webpage....')
 
-WebUI.scrollToElement(findTestObject('Object Repository/Page_Practice Page/input_show-hide'), 0)
-
-WebUI.delay(4)
-
-WebUI.setText(findTestObject('Object Repository/Page_Practice Page/input_show-hide'), 'test')
-
-WebUI.click(findTestObject('Object Repository/Page_Practice Page/inputshow-textbox'))
+WebUI.scrollToElement(findTestObject('Page_Practice Page/buttonShowTextbox'), 0)
 
 WebUI.delay(4)
 
-println("Performing scroll in Webtable....")
+WebUI.setText(findTestObject('Page_Practice Page/textBoxHideShowExample'), 'test')
 
-WebUI.executeJavaScript("document.querySelector('.tableFixHead').scrollTop=5000", null)
+WebUI.click(findTestObject('Page_Practice Page/buttonHideTextbox'))
+
+WebUI.delay(4)
+
+println('Performing scroll in Webtable....')
+
+WebUI.executeJavaScript('document.querySelector(\'.tableFixHead\').scrollTop=5000', null)
 
 WebUI.delay(4)
 
 WebUI.closeBrowser()
-
 

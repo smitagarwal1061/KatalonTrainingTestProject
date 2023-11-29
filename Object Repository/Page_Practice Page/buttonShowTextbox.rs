@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>inputhide-textbox</name>
+   <name>buttonShowTextbox</name>
    <tag></tag>
-   <elementGuidId>a04ad049-7acf-437d-af63-8b30473ea200</elementGuidId>
+   <elementGuidId>e876fcbf-b475-4348-bad2-40ff17f6ad62</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='hide-textbox']</value>
+         <key>CSS</key>
+         <value>#show-textbox</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#hide-textbox</value>
+         <key>XPATH</key>
+         <value>//input[@id='show-textbox']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>d5e92640-0974-4577-8da9-b3d0214b9103</webElementGuid>
+      <webElementGuid>73c53085-70f0-4234-b4f9-ef60ebcf837b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>hide-textbox</value>
-      <webElementGuid>f93a2135-0eb9-4203-9c7a-1c6c63e4da1f</webElementGuid>
+      <value>show-textbox</value>
+      <webElementGuid>e6213fe6-d17d-4164-b468-3f9200318137</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,23 +38,23 @@
       <name>class</name>
       <type>Main</type>
       <value>btn-style class2</value>
-      <webElementGuid>e81a5b73-1d30-4385-9fdf-f8971acaccc2</webElementGuid>
+      <webElementGuid>1dbc1e03-400b-4295-b390-f99d75973506</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Hide</value>
-      <webElementGuid>ce578b3a-40a9-4c5b-9bbf-82712d745df7</webElementGuid>
+      <value>Show</value>
+      <webElementGuid>bab38025-a8d0-4404-b68e-e94b44f01dda</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>hideElement()</value>
-      <webElementGuid>db46332f-7668-4788-8a41-ec1215aeb701</webElementGuid>
+      <value>showElement()</value>
+      <webElementGuid>439f8a82-4703-4161-84d3-41d09ca82433</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,38 +62,38 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>64d07e0e-9ea4-4b98-8920-cfa33d149b80</webElementGuid>
+      <webElementGuid>045afde4-449c-429b-a317-a0838403fe9f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;hide-textbox&quot;)</value>
-      <webElementGuid>191cf3c3-b72b-4de6-9c32-39fc84cbf187</webElementGuid>
+      <value>id(&quot;show-textbox&quot;)</value>
+      <webElementGuid>9b10fd9e-f2d9-4998-8e4f-07fc41dcd403</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='hide-textbox']</value>
-      <webElementGuid>454c575e-dad1-4d23-919a-401537dfa529</webElementGuid>
+      <value>//input[@id='show-textbox']</value>
+      <webElementGuid>8f6104b5-b4ca-4fae-908f-6bd9d752e2ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div[2]/fieldset/input</value>
-      <webElementGuid>7e89fa6d-8d7c-4fb6-bd17-72d836975ebe</webElementGuid>
+      <value>//div[2]/fieldset/input[2]</value>
+      <webElementGuid>988912e5-8c29-47a6-8dea-463e0483a37e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'hide-textbox' and @type = 'submit']</value>
-      <webElementGuid>45f70197-759b-4cdc-b615-1965894d020d</webElementGuid>
+      <value>//input[@id = 'show-textbox' and @type = 'submit']</value>
+      <webElementGuid>0d890b72-afc6-4871-a17c-95589c57aa67</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
